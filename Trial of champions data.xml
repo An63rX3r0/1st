@@ -1,0 +1,12 @@
+<story name="Trial of Champions">
+  <step id="1">
+    <text>blah blah blah 49 292</text>
+    <choices>
+      <choice>49</choice>
+      <choice>292</choice>
+    </choices>
+    <fight>
+      <fighter name="Quebra-Ossos" agility="9" strength="10" />
+    </fight>
+  </step>
+</story>
