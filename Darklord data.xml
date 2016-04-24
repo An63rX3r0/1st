@@ -1,0 +1,333 @@
+<story name="Template">
+  <step id="1">
+    <text>That day, you enter Darkwood forest. You left later on in the day but feel that you can still find the sword and orb before nightfall. Along the main path you come to a sign. The hand pointing to the left reads ‘to Gilgrim Maze’. There’s an arrow pointing straight ahead toward an unkempt trail. The arrow veering right reads ‘to Gamak Ruins’. Will you go to the maze, (turn to 93) or will you head to the ruins first, (turn to 80)? If you feel confident that you can finish the quest just as you are, without looking for the objects Leena told you to get, you can take the dishevelled course instead, (turn to 6).</text>
+    <choices>
+      <choice>93</choice>
+      <choice>80</choice>
+      <choice>6</choice>
+    </choices>
+  </step>
+  <step id="2">
+    <text>You go through double doors and come to an open space. Far ahead is an ascending staircase. There are three doors on the right, and three doors on the left. Which door will you try:
+
+Door one with a lamp on it?                  Turn to 17.
+Door two with a coffin on it?                Turn to 24.
+Door three with a skull on it?               Turn to 144
+Door four with stars on it?                  Turn to 182
+Door five with flames on it?                 Turn to 103.
+Door six with a chest on it?                 Turn to 120.
+
+Alternately, you can ignore the doors and head for the stairs, (turn to 124).</text>
+    <choices>
+      <choice>17</choice>
+      <choice>24</choice>
+      <choice>144</choice>
+      <choice>182</choice>
+      <choice>103</choice>
+      <choice>120</choice>
+      <choice>124</choice>
+    </choices>
+  </step>
+  <step id="3">
+    <text>The herb has a strong putrid taste, but you swallow it despite this. You will have to wait until it’s absorbed into your body before you discover what it does. Turn to 130.</text>
+    <choices>
+      <choice>130</choice>
+    </choices>
+  </step>
+  <step id="4">
+    <text>As you enter the room, you find yourself toe-to-toe with a large, starved Minotaur!
+
+MINOTAUR STAMINA 8 SKILL 7
+
+If you win, you return to the passageway, turn to 19.</text>
+    <choices>
+      <choice>19</choice>
+    </choices>
+    <fight>
+      <fighter name="Minotaur" skill="7" health="8" />
+    </fight>
+  </step>
+  <step id="5">
+    <text>The door opens into a small room where there’s a dead end. As you step in, white flowers growing out of the soft ground open up and spurt green vapours into the air. You can’t help inhaling some spores.  At first, you think nothing of it, but you soon become violently ill. Lose 1 stamina point. The air in here is stifling now, and it worsens the pains in your stomach. Done wasting your time in here, and feeling overly-exhausted, you head out and go through the horned-bull door, turn to 38.</text>
+    <effect health="-1"></effect>
+    <choices>
+      <choice>38</choice>
+    </choices>
+  </step>
+  <step id="6">
+    <text>Down the trail is a cabin with a smoking chimney. Will you knock on the door? If so, turn to 149. Otherwise, turn to 15. </text>
+    <choices>
+      <choice>149</choice>
+      <choice>15</choice>
+    </choices>
+  </step>
+  <step id="7">
+    <text>There is a dead end here filled with large cobwebs. You see legs emerge from a spun funnel, followed by multiple beady eyes. You realise the door has closed behind you and now there’s no time to turn around and run away. You must kill the creature. You take out your sword.
+
+GIANT SPIDER STAMINA 6 SKILL 5
+
+If you win, you escape the room and open the door with a hand on it. Turn to 13.</text>
+    <choices>
+      <choice>13</choice>
+    </choices>
+    <fight>
+      <fighter name="Giant Spider" skill="5" health="6"></fighter>
+    </fight>
+  </step>
+  <step id="8">
+    <text>You come to a locked door. It requires two keys to open. If you possess two keys, add the engraved numbers together and turn to that reference. If not, you must start at the beginning of the lower section of the maze and search for the missing two keys; turn to 185.</text>
+    <choices>
+      <choice>???</choice>
+      <choice>185</choice>
+    </choices>
+  </step>
+  <step id="9">
+    <text>The passageway turns sharply to the left. There at the end of the tunnel is a large wooden chest on the floor. Will you open it (turn to 37), or go back the way you came and take the other route, (turn to 27)?</text>
+    <choices>
+      <choice>37</choice>
+      <choice>27</choice>
+    </choices>
+  </step>
+  <step id="10">
+    <text>You’ve heard rumours about the ruins, stories of hidden treasures. But even the lure of possible treasure has not been enough for anyone to risk a visit, for it’s rumoured to be a very dangerous place. Looking around, you find a burial ground. There are three upright objects each with plaques reading out names from a past long since gone. There’s an angel statue nearby, and you are surrounded by hundreds of weeded-over tombs. There is also a stone gazebo which you make your way over to investigate. There’s a portion of the floor to the gazebo missing, as if someone took a hammer and smashed it in. As you step closer to get a better look, the rest of the ground gives way and you fall in!
+
+You don’t fall very far down and land on your back. You are in a tunnel of some sort, with vines jacketing the walls and with holes in the ceiling. You can still see some distance in front of you thanks to the light emanating in through the holes. Unfortunately those same holes are too high to climb back out again. The orb is hidden here somewhere. You light your lantern and find there are two ways to go. One way is down the left tunnel. To go this way, turn to 100. If you’d rather investigate the passage veering right, turn to 74.</text>
+    <choices>
+      <choice>100</choice>
+      <choice>74</choice>
+    </choices>
+  </step>
+  <step id="11">
+    <text>Which chest do you wish to open? The one on the right wall (turn to 20), or the one on the left side (turn to 180).</text>
+    <choices>
+      <choice>20</choice>
+      <choice>180</choice>
+    </choices>
+  </step>
+  <step id="12">
+    <text>The queen emerges from the tree, much to your relief. ‘Well done, traveller.’ An herb appears in front of you. You recognise it as MUGWORT and take it. When you go to thank them, you find that they all have disappeared. Maddened by this strange occurrence, you hurry on. Turn to 126.</text>
+    <item add="MOGWORT"></item>
+    <choices>
+      <choice>126</choice>
+    </choices>
+  </step>
+  <step id="13">
+    <text>After a while, the passageway turns right and you arrive at a descending stairwell. Going down into the depths, you light your torch. There is no vegetation down here, and you don’t smell any poisonous spores.
+
+Downstairs, you come directly to double doors, and off to the right is a long tunnel. Will you go right down the tunnel (turn to 47), or open the doors (turn to 135).</text>
+    <choices>
+      <choice>47</choice>
+      <choice>135</choice>
+    </choices>
+  </step>
+  <step id="14">
+    <text>The trail goes right sharply. You then come to the sight of a seat carved from a tree. Will you sit and relax (turn to 42) or will you ignore it and continue with your expedition, walking for a ways along the trail before the path veers left (turn to 119)?</text>
+    <choices>
+      <choice>42</choice>
+      <choice>119</choice>
+    </choices>
+  </step>
+  <step id="15">
+    <text>The sun has set. The trail is dark now, and you have to rely on your lantern to see. Finally you arrive at a totem pole with two signs. One is pointing left and the other is directing you right. You see no point in carrying on tonight and decide to set up a camp here on the path, up against a tree. Just as you’re settling to sleep you hear horse hoofs thumping against the ground. You snuff out your lantern and wait. A cloaked man and white steed come up the path. He has no idea you are there in the shadows. Will you attack him while he’s distracted looking at the pole (turn to 30) or will you stay quiet and wait until he leaves (turn to 62)?</text>
+    <choices>
+      <choice>30</choice>
+      <choice>62</choice>
+    </choices>
+  </step>
+  <step id="16">
+    <text>The genie gasps and goes back into the lamp. You have no idea if your wish came true or not. You’ll just have to wait until you get there. Return to 2.</text>
+    <choices>
+      <choice>2</choice>
+    </choices>
+  </step>
+  <step id="17">
+    <text>There’s a chest on the floor at the far end of the room. When you open it, you find it full of gold coins and a lamp. Do you wish to rub the lamp? Turn to 23. Otherwise, you pocket as much 20 gold and leave. Return to 2.</text>
+    <choices>
+      <choice>23</choice>
+      <choice>2</choice>
+    </choices>
+  </step>
+  <step id="18">
+    <text>‘You must think that was droll. You will see why the wizard did not stand a chance against me.’ You feel pain in your rear end and feel it only to find a tail. Your arms and legs start to sting, which causes you to fall over in pain. You watch as your hands and feet become hooves. You are transforming into a mule. The Dark Lord lets out a laugh and informs you that you will live out the rest of your days as his pet.</text>
+    <choices>
+      <choice>401</choice>
+    </choices>
+  </step>
+  <step id="19">
+    <text>The path goes left. You soon come to two closed doors on the left side of the wall. The first one has the symbol of a horned bull, and the farthest one has the sign of a cauldron. Will you open the horned bull (turn to 38) or the cauldron (turn to 5)?</text>
+    <choices>
+      <choice>38</choice>
+      <choice>5</choice>
+    </choices>
+  </step>
+  <step id="20">
+    <text>Unmoved by the statues, you lift the lid of the first chest. There are strange ebony statues within. No doubt they’d cost a fortune in Stonebridge. Just as you’re pocketing the treasure, gas hisses out of a hole in the wall and you inhale some. If you have a concoction for immunity to poison, you must mix and eat it now.  If not, you can Test your Luck to determine exactly how much of the poison you actually breathed in. If the amount exceeded your score, you grab at your throat and gasp for air and you die a painful death. If you survive, you may check the second chest now; turn to 180. Otherwise, you ignore it and carry on with your mission. Turn to 34.</text>
+    <item add="Ebony statues"></item>
+    <skill_test skill="luck">
+      <choice>401</choice>
+    </effect>
+    <choices>
+      <choice>180</choice>
+      <choice>34</choice>
+    </choices>
+  </step>
+  <step id="21">
+    <text>The eyes wither as they die, spewing toxic fumes into the air as they do so. The path carries on until you spot a door on the left with the symbol of a spoon on it. You can open this door, turn to 25. Otherwise, you follow the main path ahead, turn to 129.</text>
+    <choices>
+      <choice>25</choice>
+      <choice>129</choice>
+    </choices>
+  </step>
+  <step id="22">
+    <text>The rain stops momentarily and the sun comes out. Just as you bask in the weather you arrive at a door with the symbol of a sun on it. Opening it, you step through into a large opening leading into a circular garden. There are hundreds of purplish pink thistles growing out of the dirt. You may add SILVER WEED to your list. Looking around, you find an exit covered in foliage off to the left. You take this main passageway out of here, turn to 132.</text>
+    <item add="SILVER WEED"></item>
+    <choices>
+      <choice>132</choice>
+    </choices>
+  </step>
+  <step id="23">
+    <text>A violent wisp of smoke bursts from the lamp and fills the room. You start to cough, thinking this idea may have been a mistake. A humanoid with purple skin forms in the cloud wearing baggy pants. He crosses his arms over his chest. ‘Make a wish, mortal!’ Will you wish for treasure (turn to 33) wish for the Dark Lord to be changed into a donkey (turn to 16) or put the lamp down and leave the room (return to 2)?</text>
+    <choices>
+      <choice>33</choice>
+      <choice>16</choice>
+      <choice>2</choice>
+    </choices>
+  </step>
+  <step id="24">
+    <text>There’s a single chest on the floor at the far end of the room. When you open it you find it filled to the brim with DWARF’S FOOT. Do you want to eat one of the buds? Turn to 53. Otherwise, there’s nothing else in this place, so you take a leave of absence. Return to 2.</text>
+    <choices>
+      <choice>53</choice>
+      <choice>2</choice>
+    </choices>
+  </step>
+  <step id="25">
+    <text>You open the door with the spoon on it. Immediately you’re attacked by stone gargoyles. You hear them fluttering their wings and squeaking. Fight them one at time as they come through the door. The room is overgrown with plant life. It’s best not to stay in here too long, but if you choose to fight and win you can search the room afterwards. You can ignore the battle, close the door and continue on with your journey, turn to 129. If you stay to fight in the doorway, battle them one at a time.
+
+1st GARGOYLE STAMINA 2 SKILL 5
+2nd GARGOYLE STAMINA 2 SKILL 6
+
+If you win, you may examine the room now despite the toxicity, turn to 35. </text>
+    <choices>
+      <choice>129</choice>
+      <choice>2</choice>
+    </choices>
+    <fight>
+      <fighter name="1st Gargoyle" skill="5" health="2" />
+      <fighter name="2nd Gargoyle" skill="6" health="2" />
+    </fight>
+  </step>
+  <step id="26">
+    <text>A red beam from its eye burns a hole into your forehead. You suffer a stroke and fall to the floor, never to recover. Your quest ends here.</text>
+    <choices>
+      <choice>401</choice>
+    </choices>
+  </step>
+  <step id="27">
+    <text>You’re heading in a western route. The air becomes thicker down this way. As you proceed, you find more treasure chests lined up along the wall, two on the left and two on the right. Tempting as they are, the deep alcoves in the wall above each chest give you pause. It’s not the alcoves themselves but the figures they contain that you don’t like the look of. The dog-shaped statues are made of some strange material that isn’t stone, and they are covered in razors. You test one of the blades and find it extremely sharp and in tip-top shape. The chests are tempting though. Will you open one? If so, turn to 11. To ignore the chests and continue with your quest, turn to 34.</text>
+    <choices>
+      <choice>11</choice>
+      <choice>34</choice>
+    </choices>
+  </step>
+  <step id="28">
+    <text>‘Oh, I was just checking on Stonebridge. It is my job. It is such a lovely town. It’s such a pity though.’ You ask her what she means about it being a pity, but she seems in a hurry and doesn’t wait around long enough to answer you. She snaps a whip and the spider sprints on. Turn to 49.</text>
+    <choices>
+      <choice>49</choice>
+    </choices>
+  </step>
+  <step id="29">
+    <text>The potion tastes bitter. Add 1 skill point to your score. Return to 99.</text>
+    <effect skill="+1"></effect>
+    <choices>
+      <choice>99</choice>
+    </choices>
+  </step>
+  <step id="30">
+    <text>Quickly, you jump to your feet and knock him off the horse. In the darkness, he pulls out his sabre, and prepares to defend himself. He starts whimpering and fiddling with his sword. Will you:
+
+Try to talk to him instead of killing him?           Turn to 163.
+Continue your attack?                                Turn to 168.</text>
+    <choices>
+      <choice>163</choice>
+      <choice>168</choice>
+    </choices>
+  </step>
+  <step id="31">
+    <text>When you open the door and step in, you notice a sphere floating in the middle of the room.  You can see a face in it. As you come closer you recognise it as being Yaztromo. ‘Adventurer, I cobbled together my last resources to create this effect. If you gathered the orb on the journey you must use it while the Dark Lord is in the same room as you, for he will be rendered useless. I’ve seen him morph and it’s not something you want to face. I hope you have found the Beryl Sword too for it has come to my attention you will need it to kill him. Also you must…you must…’ the sphere dissolves. Return to 113.</text>
+    <choices>
+      <choice>113</choice>
+    </choices>
+  </step>
+  <step id="32">
+    <text>He leads you to a tall rock about your height; he walks right through it like a ghost and gestures you to follow him in. Although you feel like you are about to crash into the stone, you simply walk through it. Your foot feels floor and as you get inside you come to steps going down. You descend the stairs, and at the bottom is a large open area consisting of a sitting room and a kitchen. Small glowing rocks line the wall and light up the place. He tells you to have a seat, in which you do, glad to be out of that rain. You watch him put the tea kettle on while he asks you your business. You tell him the truth, and after hearing the news, he seems happy. While you wait for the tea you both engage in conversation. What do you wish to know? What will you talk about?
+
+If he has heard of the evil growing on the outskirts of Darkwood?  Turn to 177.
+If he has news on Yaztromo?                                        Turn to 54.
+Decide to leave, turn to 131.</text>
+    <choices>
+      <choice>177</choice>
+      <choice>54</choice>
+      <choice>131</choice>
+    </choices>
+  </step>
+  <step id="33">
+    <text>Test your Luck. If the result is equal to or lower than your luck score, turn to 45. If it exceeded your luck score, turn to 52.</text>
+    <skill_test skill="luck">
+      <choice>52</choice>
+    </effect>
+    <choices>
+      <choice>45</choice>
+    </choices>
+  </step>
+  <step id="34">
+    <text>The tunnel goes on for quite some time until you come to an arched doorway. What lies beyond is a massive black chasm. There’s an island in the distance, and the only way to get to it is by crossing a long rickety bridge. Just as you take your first step onto the bridge, it moans and creaks. Do you wish to walk across carefully (turn to 112), or will you run across and get it over with (turn to 36)?</text>
+    <choices>
+      <choice>112</choice>
+      <choice>36</choice>
+    </choices>
+  </step>
+  <step id="35">
+    <text>Amongst the flowers and weeds you find TWICH’S GRASS. Add it to your possession. You continue on with your journey. Turn to 129.</text>
+    <choices>
+      <choice>129</choice>
+    </choices>
+  </step>
+  <step id="36">
+    <text></text>
+    <choices>
+      <choice></choice>
+    </choices>
+  </step>
+  <step id="37">
+    <text></text>
+    <choices>
+      <choice></choice>
+    </choices>
+  </step>
+  <step id="38">
+    <text></text>
+    <choices>
+      <choice></choice>
+    </choices>
+  </step>
+  <step id="39">
+    <text></text>
+    <choices>
+      <choice></choice>
+    </choices>
+  </step>
+  <step id="40">
+    <text></text>
+    <choices>
+      <choice></choice>
+    </choices>
+  </step>
+
+  <step id="401">
+    <text>GAME OVER</text>
+    <choices>
+      <choice></choice>
+      <choice></choice>
+    </choices>
+  </step>
+</story>

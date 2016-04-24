@@ -6,7 +6,7 @@
       <choice>292</choice>
     </choices>
     <fight>
-      <fighter name="Quebra-Ossos" agility="9" strength="10" />
+      <fighter name="Quebra-Ossos" skill="9" health="10" />
     </fight>
   </step>
 </story>

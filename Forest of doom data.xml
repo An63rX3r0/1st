@@ -1,12 +1,16 @@
 <story name="Forest of Doom">
   <step id="1">
-    <text>blah blah blah 49 292</text>
+    <text> Your walk to Yaztromo's takes a little over half a day, and you arrive at his stone tower home dirty and hungry. As the tower is set back on the edges of Darkwood some fifty metres away from the path you have been following, it is difficult to find. Finally you walk up to the huge oak door, somewhat relieved to find that it does exist and that Bigleg had not been speaking wildly in his delirium. A large brass bell and gong hang from the stone archway. As you ring the bell, a shiver runs down your spine and you realize that the loud 'bong' invades a deep silence, which you had not noticed before. There are no sounds of birds or animals to be heard. You wait anxiously at the door and hear slow footsteps descending stairs from the tower above. A small wooden slot in the door slides open, and two eyes appear and examine you.
+      'Well, who are you?' demands a grumpy voice through the hole.
+      You answer that you are an adventurer in search of the master mage Yaztromo, intending to purchase magical items from him to combat the creatures of Darkwood Forest.
+      'Oh! Well in that case, if you are interested in buying some of my merchandise, you had better come up. I am Yaztromo.'
+      He then turns and slowly climbs the stone stairs. Will you: Follow him up the stairs? Turn to 261 Follow him and attack him? Turn to 54</text>
     <choices>
-      <choice>49</choice>
-      <choice>292</choice>
+      <choice>261</choice>
+      <choice>54</choice>
     </choices>
     <fight>
-      <fighter name="Quebra-Ossos" agility="9" strength="10" />
+      <fighter name="Quebra-Ossos" skill="9" health="10" />
     </fight>
   </step>
 </story>

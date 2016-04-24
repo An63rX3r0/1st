@@ -1,12 +1,17 @@
 <story name="Template">
   <step id="1">
     <text>blah blah blah 49 292</text>
+    <item add="MOGWORT"></item>
+    <effect health="-1"></effect>
+    <skill_test skill="luck">
+      <choice>401</choice>
+    </effect>
     <choices>
       <choice>49</choice>
       <choice>292</choice>
     </choices>
     <fight>
-      <fighter name="Quebra-Ossos" agility="9" strength="10" />
+      <fighter name="Quebra-Ossos" skill="9" health="10" />
     </fight>
   </step>
 </story>
